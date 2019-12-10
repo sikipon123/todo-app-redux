@@ -1,0 +1,58 @@
+.header {
+  font-size: 50px;
+  text-align: center;
+  margin: 20px 100px;
+  padding: 60px 0px;
+  background-color: #a4508b;
+  background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+}
+
+.inputtasktype {
+  margin: -20px 100px;
+  display: flex;
+  border: 1px solid grey;
+  width: 86%;
+}
+
+.form {
+  height: 70px;
+  width: 100%;
+  font-size: 30px;
+}
+.btn-add {
+  width: 100%;
+  font-size: 30px;
+  background-color: greenyellow;
+}
+
+.todosbloc {
+  border: 1px solid red;
+  margin: 20px 100px;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.task-in {
+  align-self: flex-start;
+  font-size: 20px;
+  padding: 5px 35px;
+}
+
+.edit-btn {
+  align-self: flex-end;
+  margin-right: 30px;
+  padding: 10px 25px;
+}
+
+.remove-btn {
+  padding: 10px 30px;
+}
+
+.checked {
+  text-decoration: line-through;
+}
+
+.btneditx{
+  display: flex;
+}
